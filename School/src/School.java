@@ -1,4 +1,4 @@
-
+//created by Fayed Raza
 public class School {
 
 Student head;
@@ -10,7 +10,8 @@ public static void main (String[] args) {
 	
 }
 
-public void addFreshman(String name, int grade) {
+public void addFreshman(String name, int grade) { /*adds to the
+                                                   beginning of the stack*/
 	Student freshman = new Student (name,grade);
 	
 	if(freshman.grade != 9) {
@@ -29,7 +30,7 @@ public void addFreshman(String name, int grade) {
 	
 }
 	
-public void removeStudent(int position) {
+public void removeStudent(int position) { //removes a student
 	
 	if(head == null) {
 		return;
@@ -58,7 +59,7 @@ public void removeStudent(int position) {
 	
 }
 	
-public void printList() 
+public void printList() //prints the whole stack
 { 
     Student tnode = head; 
     while (tnode != null) 
