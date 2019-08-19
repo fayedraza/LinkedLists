@@ -1,4 +1,5 @@
-
+//created by Fayed Raza
+//purpose is to introduce linkedlists which is a data structure
 public class LinkedLists {
  
                 public int findNode (Node node, int x){
@@ -26,11 +27,12 @@ public class LinkedLists {
  
  
 class Node { //node class
-                Node next;
+             
+	Node next;
    int data;
                
-                public Node(int data) {
-                                this.data = data;
+                public Node(int data) {//parameter
+                    this.data = data;
                 }
  
  
