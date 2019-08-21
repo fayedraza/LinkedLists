@@ -2,7 +2,7 @@
 public class School {
 
 Student head;
-//purpose is to introduce stacks
+//purpose is to introduce linkedlists
 public static void main (String[] args) {
 	
 	School d = new School(); 
@@ -10,8 +10,7 @@ public static void main (String[] args) {
 	
 }
 
-public void addFreshman(String name, int grade) { /*adds to the
-                                                   beginning of the stack*/
+public void addFreshman(String name, int grade) { //adds a student
 	Student freshman = new Student (name,grade);
 	
 	if(freshman.grade != 9) {
@@ -59,7 +58,7 @@ public void removeStudent(int position) { //removes a student
 	
 }
 	
-public void printList() //prints the whole stack
+public void printList() //prints a whole list of students
 { 
     Student tnode = head; 
     while (tnode != null) 
