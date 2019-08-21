@@ -1,7 +1,9 @@
 //created by Fayed Raza
 public class Car {
-/*purpose is to use the data structure, linked lists, using
+/*purpose is to use a data structure called linked lists in a
  * a program that can add/delete car parts
+ * 
+ * 
  */
 	
 	Parts head; 
@@ -122,7 +124,7 @@ public class Car {
      System.out.print(response + " has been removed");
 		
 		
-	}else { //throws an exception if it is not between 0 and x including x and 0
+	}else { //throws an exception if it is not between 0 and x including 0 and x
 		throw new IndexOutOfBoundsException("Postion can be between 0 to " + x + " including "
 				+"0 and " + x +"." + "\n" + i + " is not a valid posistion.");
 	}
