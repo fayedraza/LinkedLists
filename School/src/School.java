@@ -2,7 +2,7 @@
 public class School {
 
 Student head;
-
+//purpose is to introduce stacks
 public static void main (String[] args) {
 	
 	School d = new School(); 
